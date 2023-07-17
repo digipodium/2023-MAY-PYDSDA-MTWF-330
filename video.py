@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-cam = cv2.VideoCapture(r'C:\Users\ZAID\Videos\warhaven quadra kill.mp4') # link to webcam
+cam = cv2.VideoCapture(0) # link to webcam
 
 while cam.isOpened():
     status, img = cam.read()
